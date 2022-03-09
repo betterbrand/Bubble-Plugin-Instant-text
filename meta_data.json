@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "visual elements",
+        "1": "technical"
+    },
+    "description": "Instantly get the live text from an input field without waiting for that slight delay from bubble in recognizing the entered value. Can be used for application such as displaying number of characters entered in real-time",
+    "image": "//s3.amazonaws.com/appforest_uf/f1527875953680x946964668110013000/add-plus-button.png",
+    "instructions": "Paste the element on page, give the html id, and access the value from the element's value",
+    "license": "open_source",
+    "link": "https://airdev.co",
+    "name": "Instant text",
+    "plugin_instructions": "Paste the element on page, give the html id, and access the value from the element's value"
+}
