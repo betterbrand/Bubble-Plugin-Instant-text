@@ -1,0 +1,15 @@
+{
+  "name": "graphql-bubble",
+  "version": "1.0.0",
+  "description": "graphql plugin for bubble",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  }
+}
