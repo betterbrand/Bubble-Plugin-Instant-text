@@ -24,8 +24,7 @@ app.post('/graphql', (req, res)=> {
     const queryValues = req.queryValues;
 
     const headers = {
-        "content-type" : "application/json",
-        "Authorization" : token
+        "content-type" : "application/json"
     }
 
     const graphqlQuery = {
@@ -34,15 +33,16 @@ app.post('/graphql', (req, res)=> {
         "variables": {}
     };
 
-    res = axios({
+    axios({
         url: url,
         method: 'post',
         headers: headers,
         data: graphqlQuery
-      });
-      
-    console.log(res);
+      }).then((result) => {
+        console.log(result.data)
+        return res.status(200).json(result.data);
+      })
 
-    return res;
+   
 
 })
