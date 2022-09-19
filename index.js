@@ -9,7 +9,7 @@ const { UrlLoader } = require('@graphql-tools/url-loader')
 const { loadSchema } = require('@graphql-tools/load')
 
 app.listen(3000, function() {
-    console.log("Server is listening on port 3000...");
+    console.log("Server is listening on port : 3000");
 });
 
 app.post('/graphql', (req, res)=> {
