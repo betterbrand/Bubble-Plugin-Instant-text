@@ -65,7 +65,7 @@ app.post('/loadSchema', async (req, res)  => {
 
         const url = req.url;
     
-        const schema = await loadSchema('http://localhost:3000/graphql', {
+        const schema = await loadSchema(url, {
         loaders: [new UrlLoader()]
       })
     
